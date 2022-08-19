@@ -1,0 +1,61 @@
+id,orientation,degree,cn,c_id
+1,engineering,aerospace Engineering,Aircraft Stability and Control,1
+2,engineering,aerospace Engineering,Introduction to Airplane performance,2
+3,engineering,aerospace Engineering,Introduction to Airbreathing Propulsion,3
+4,engineering,aerospace Engineering,Introduction to Aerospace Engineering-Flight,4
+5,engineering,aerospace Engineering,Introduction to Aircraft Design,5
+6,engineering,aerospace Engineering,Design of fixed wing Unmanned Aerial Vehicles,6
+7,engineering,agricultural Engineering,Dairy And Food Process And Products Technology,7
+8,engineering,agricultural Engineering,Farm Machinery,8
+9,engineering,agricultural Engineering,Fundamentals Of Food Process Engineering,9
+10,engineering,agricultural Engineering,Organic Farming For Sustainable Agricultural Production,10
+11,engineering,agricultural Engineering,Natural Resources Management,11
+12,engineering,agricultural Engineering,Micro Irrigation Engineering,12
+13,engineering,computer science Engineering,Object Oriented Analysis And Design,13
+14,engineering,computer science Engineering,Operating System Fundamentals,14
+15,engineering,computer science Engineering,Problem Solving Through Programming In C,15
+16,engineering,computer science Engineering,Programming In Java,16
+17,engineering,computer science Engineering,Programming In Modern C++,17
+18,engineering,computer science Engineering,Real-Time Systems,18
+19,engineering,electrical and electronics engineering,Fundamentals Of Electric Drives,19
+20,engineering,electrical and electronics engineering,Concentration inequalities,20
+21,engineering,electrical and electronics engineering,Mathematical Aspects of Biomedical Electronic System Design,21
+22,engineering,electrical and electronics engineering,Semiconductor Devices and Circuits,22
+23,engineering,electrical and electronics engineering,Advances in UHV Transmission and Distribution,23
+24,engineering,electrical and electronics engineering,Real-Time Digital Signal Processing,24
+25,arts,humanities and social sciences ,Poetry,25
+26,arts,humanities and social sciences ,Literary Theory and Literary Criticism,26
+27,arts,humanities and social sciences ,Introduction to Film Studies,27
+28,arts,humanities and social sciences ,Introduction to Advanced Cognitive Processes,28
+29,arts,humanities and social sciences ,Introduction to Basic Cognitive Processes,29
+30,arts,humanities and social sciences ,International Trade - Theory and Empirics,30
+31,science,management,Organizational Behaviour,31
+32,science,management,The Future of Manufacturing Business: Role of Digital Technologies,32
+33,science,management,Managerial Skills for Interpersonal Dynamics,33
+34,science,management,Entrepreneurship,34
+35,science,management,Quantitative Investment Management,35
+36,science,management,Product and Brand Management,36
+37,engineering,mechanical engineering,Advanced Machining Processes,37
+38,engineering,mechanical engineering,Applied Thermodynamics,38
+39,engineering,mechanical engineering,Fundamentals of Additive Manufacturing Technologies,39
+40,engineering,mechanical engineering,Welding Application Technology,40
+41,engineering,mechanical engineering,Automation in Manufacturing,41
+42,engineering,mechanical engineering,Advances in welding and joining technologies,42
+43,science,chemistry,Metal Mediated Synthesis-I,43
+44,science,chemistry,Metals In Biology,44
+45,science,chemistry,Transition Metal Organometallic Chemistry: Principles To Applications,45
+46,science,chemistry,Symmetry and Group Theory,46
+47,science,chemistry,Quantum Chemistry of Atoms and Molecules,47
+48,science,chemistry,Mechanisms in Organic Chemistry,48
+49,science,physics,Advanced Quantum Mechanics with Applications,49
+50,science,physics,Numerical Methods And Simulation Techniques For Scientists And Engineers,50
+51,science,physics,Nuclear and Particle Physics,51
+52,science,physics,Physics of Renewable Energy Systems,52
+53,science,physics,Introduction to Astrophysical Fluids,53
+54,science,physics,Bonds and Bands in Solids,54
+55,engineering,textile engineering,"Principles of Combing,Roving preparation & Ring spinning",55
+56,engineering,textile engineering,Yarn manufacture I : Principle of Carding and Drawing,56
+57,engineering,textile engineering,Science of Clothing Comfort,57
+58,engineering,textile engineering,Technical Textiles,58
+59,engineering,textile engineering,Textile Finishing,59
+60,engineering,textile engineering,Science and Technology of Weft and Warp Knitting,60
