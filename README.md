@@ -1,3 +1,1 @@
-# MiniProjects using ML
-Using Simple Machine Learning techniques to predict the required fields of the given datasets!
-If you dont understand, Kindly refer all the libraries used here.
+I have shared some of my Mini projects here where i have used machine learning!
