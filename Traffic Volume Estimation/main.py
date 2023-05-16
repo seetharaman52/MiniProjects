@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify, render_template
 import numpy as np
 import pandas as pd
 import pickle
-with open(r'/home/seetharaman/Documents/flask-python/objects/model.pk1','rb') as file:
+with open(r'/home/seetharaman/Documents/Traffic Volume Estimation/objects/model','rb') as file:
     model = pickle.load(file)
 
 app = Flask(__name__)
