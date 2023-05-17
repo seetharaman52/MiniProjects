@@ -3,12 +3,7 @@
     <head>
         <meta charset="UTF-8">
     </head>
-    <style>
-        body{
-            background-image: url('/home/seetharaman/Documents/flask-python/static/orange.jpg');
-        }
-    </style>
-    <body>
+    <body background="orange.jpg">
         <div class = "Login">
             <center><h1>Traffic Volume Estimation</h1></center>
             <form action="{{url_for('predict')}}" method="post">
@@ -17,18 +12,18 @@
         <label for=""holiday>Holiday:</label>
             <select id="holiday" name="holiday"
                 <option></option>
-                <option value=0>None</option>
+                <option value=7>None</option>
                 <option value=1>Columbus Day</option>
-                <option value=2>Christmas Day</option>
-                <option value=3>Independence Day</option>
-                <option value=4>Labour Day</option>
-                <option value=6>Memorial Day</option>
-                <option value=7>New Years Day</option>
+                <option value=0>Christmas Day</option>
+                <option value=2>Independence Day</option>
+                <option value=3>Labour Day</option>
+                <option value=5>Memorial Day</option>
+                <option value=6>New Years Day</option>
                 <option value=8>State Fair</option>
                 <option value=9>Thanksgiving Day</option>
                 <option value=10>Veterans Day</option>
                 <option value=11>Washingtons Birthday</option>
-                <option value=12>Martin Luther King Jr Day</option>
+                <option value=4>Martin Luther King Jr Day</option>
             </select> &nbsp;&nbsp;<br>
         <br>
         <label>Temperature:</label>
@@ -45,16 +40,16 @@
                 <option></option>
                 <option value=0>None</option>
                 <option value=1>Clouds</option>
-                <option value=2>Clear</option>
-                <option value=3>Drizzle</option>
-                <option value=4>Fog</option>
-                <option value=5>Haze</option>
+                <option value=0>Clear</option>
+                <option value=2>Drizzle</option>
+                <option value=3>Fog</option>
+                <option value=4>Haze</option>
                 <option value=6>Rain</option>
-                <option value=7>Mist</option>
-                <option value=8>Smoke</option>
-                <option value=9>Snow</option>
-                <option value=10>Squall</option>
-                <option value=11>Thunderstorm</option>
+                <option value=5>Mist</option>
+                <option value=7>Smoke</option>
+                <option value=8>Snow</option>
+                <option value=9>Squall</option>
+                <option value=10>Thunderstorm</option>
         </select> &nbsp;&nbsp;<br>
         <br>
         <label>Year:</label>
