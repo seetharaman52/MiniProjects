@@ -24,6 +24,7 @@ def predict():
     input_features = [x for x in request.form.values()]
     features_values = [np.array(input_features)]
     names = [['holiday','temp','rain','snow','weather','year','month','day','hours','minutes','seconds']]
+    
     holiday = str(request.form["holiday"])
     temp = float(request.form["temp"])
     rain = int(request.form["rain"])
@@ -35,14 +36,16 @@ def predict():
     hours = int(request.form["hours"])
     mins = int(request.form["minutes"])
     secs = int(request.form["seconds"])
-    query = ("insert into traffic_info(holiday, temp, rain, snow, weather, yr, month, day, hour, mins, secs) values(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)")
-    vals = (holiday, temp, rain, snow, weather, year, month, day, hours, mins, secs)
+
+    data = pd.DataFrame(features_values, columns = names)
+    prediction = int(model.predict(data))
+    estimate = prediction
+
+    query = ("insert into traffic_info(holiday, temp, rain, snow, weather, yr, month, day, hour, mins, secs, estimate) values(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)")
+    vals = (holiday, temp, rain, snow, weather, year, month, day, hours, mins, secs, estimate)
     cur.execute(query, vals)
     db.commit()
     db.close()
-    data = pd.DataFrame(features_values, columns = names)
-    prediction = int(model.predict(data))
-    print(prediction)
     return render_template("demo.html",prediction_text = str(prediction))
 
 if __name__ == "__main__":
