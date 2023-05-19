@@ -17,7 +17,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("demo.html")
 
 @app.route('/predict',methods=["POST","GET"])
 def predict():
@@ -43,7 +43,8 @@ def predict():
     data = pd.DataFrame(features_values, columns = names)
     prediction = int(model.predict(data))
     print(prediction)
-    return render_template("demo.html",prediction_text = str(prediction))
+    text = "Estimated Traffic Volume is :"
+    return render_template("demo.html",prediction_text = text + str(prediction))
 
 if __name__ == "__main__":
     port = int(os.environ.get('PORT',5000))
