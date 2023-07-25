@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relationship Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Relationship Calculator</h1>
+        <form method="post">
+            <label for="word1">Enter a name:</label>
+            <input type="text" id="word1" name="word1" required>
+            <label for="word2">Enter a name:</label>
+            <input type="text" id="word2" name="word2" required>
+            <button type="submit">Calculate</button>
+        </form>
+        {% if result %}
+            <p>{{ result }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
